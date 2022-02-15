@@ -1,0 +1,129 @@
+/* Limpar formatações */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: "Trebuchet MS", Helvetica , sans-serif;
+    background: azure;
+}
+
+/*
+**** Layout ****
+*/
+
+#area-cabecalho {
+    background-color: blueviolet;
+    padding: 15px;
+    text-align: center;
+}
+
+#area-logo, #area-menu {
+    padding: 10px;
+}
+
+#area-principal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#area-postagens{
+    width: 660px;
+    float: left;
+}
+
+#area-lateral{
+    width: 240px;
+    float:right;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: azure;
+}
+
+.conteudo-lateral{
+    background: azure;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.postagem-lateral{
+    font-size: 0.9em;
+    padding: 5px;
+}
+
+#rodape{
+    text-align: center;
+    clear: both;
+    padding: 15px;
+    background: blueviolet;
+    color: rgb(149, 238, 245);
+}
+
+/*
+**** Formatações dos menus ****
+*/
+a{
+    text-decoration: none;
+}
+
+a:link,  a:visited{
+    color:blueviolet;
+    padding: 4px 4px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(149, 238, 245);
+    background: blueviolet;
+    text-decoration: none;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited{
+    color:rgb(149, 238, 245);
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+#area-cabecalho a:hover{
+    color: blueviolet;
+    background: rgb(149, 238, 245);
+    text-decoration: none;
+}
+
+/*
+**** Formatações em geral ****
+*/
+
+h1{
+    color:#060e11;
+    font-size: 2.5em;
+}
+
+h2{
+    color: blueviolet;
+}
+
+h3{
+    color:rgb(149, 238, 245);
+    background: blueviolet;
+    padding: 5px;
+}
+
+.branco{
+        color: rgb(149, 238, 245);
+}
+
+.data-postagem{
+    font-size: 0.8em;
+    border-bottom: 1px solid rgb(149, 238, 245);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
